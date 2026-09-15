@@ -1,0 +1,267 @@
+{
+  "reps": 5,
+  "throughput": [
+    {
+      "pattern": "email",
+      "engine": "re",
+      "scan_ms": 67.24,
+      "compile_ms": 0.77,
+      "matches": 40000,
+      "mb_per_s": 63.5
+    },
+    {
+      "pattern": "email",
+      "engine": "regex",
+      "scan_ms": 382.61,
+      "compile_ms": 0.247,
+      "matches": 40000,
+      "mb_per_s": 11.2
+    },
+    {
+      "pattern": "email",
+      "engine": "re2",
+      "scan_ms": 113.02,
+      "compile_ms": 0.032,
+      "matches": 40000,
+      "mb_per_s": 37.8
+    },
+    {
+      "pattern": "ipv4",
+      "engine": "re",
+      "scan_ms": 60.74,
+      "compile_ms": 0.032,
+      "matches": 40000,
+      "mb_per_s": 70.3
+    },
+    {
+      "pattern": "ipv4",
+      "engine": "regex",
+      "scan_ms": 21.21,
+      "compile_ms": 0.152,
+      "matches": 40000,
+      "mb_per_s": 201.5
+    },
+    {
+      "pattern": "ipv4",
+      "engine": "re2",
+      "scan_ms": 114.14,
+      "compile_ms": 0.034,
+      "matches": 40000,
+      "mb_per_s": 37.4
+    },
+    {
+      "pattern": "iso_date",
+      "engine": "re",
+      "scan_ms": 45.26,
+      "compile_ms": 0.03,
+      "matches": 40000,
+      "mb_per_s": 94.4
+    },
+    {
+      "pattern": "iso_date",
+      "engine": "regex",
+      "scan_ms": 10.33,
+      "compile_ms": 0.137,
+      "matches": 40000,
+      "mb_per_s": 413.8
+    },
+    {
+      "pattern": "iso_date",
+      "engine": "re2",
+      "scan_ms": 109.56,
+      "compile_ms": 0.023,
+      "matches": 40000,
+      "mb_per_s": 39.0
+    },
+    {
+      "pattern": "loglevel",
+      "engine": "re",
+      "scan_ms": 40.55,
+      "compile_ms": 0.038,
+      "matches": 40000,
+      "mb_per_s": 105.4
+    },
+    {
+      "pattern": "loglevel",
+      "engine": "regex",
+      "scan_ms": 28.68,
+      "compile_ms": 0.216,
+      "matches": 40000,
+      "mb_per_s": 149.0
+    },
+    {
+      "pattern": "loglevel",
+      "engine": "re2",
+      "scan_ms": 113.6,
+      "compile_ms": 0.03,
+      "matches": 40000,
+      "mb_per_s": 37.6
+    },
+    {
+      "pattern": "url",
+      "engine": "re",
+      "scan_ms": 13.0,
+      "compile_ms": 0.033,
+      "matches": 40000,
+      "mb_per_s": 328.6
+    },
+    {
+      "pattern": "url",
+      "engine": "regex",
+      "scan_ms": 22.83,
+      "compile_ms": 0.124,
+      "matches": 40000,
+      "mb_per_s": 187.1
+    },
+    {
+      "pattern": "url",
+      "engine": "re2",
+      "scan_ms": 108.68,
+      "compile_ms": 0.028,
+      "matches": 40000,
+      "mb_per_s": 39.3
+    }
+  ],
+  "redos": [
+    {
+      "engine": "re",
+      "n": 18,
+      "ms": 17.186,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re",
+      "n": 20,
+      "ms": 69.74,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re",
+      "n": 22,
+      "ms": 268.503,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re",
+      "n": 24,
+      "ms": 1077.039,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re",
+      "n": 26,
+      "ms": 4308.177,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re",
+      "n": 28,
+      "ms": null,
+      "status": "timeout(>10s)",
+      "error": "timeout"
+    },
+    {
+      "engine": "regex",
+      "n": 18,
+      "ms": 0.256,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 20,
+      "ms": 0.17,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 22,
+      "ms": 0.187,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 24,
+      "ms": 0.202,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 26,
+      "ms": 0.218,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 28,
+      "ms": 0.257,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "regex",
+      "n": 30,
+      "ms": 0.252,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 18,
+      "ms": 0.099,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 20,
+      "ms": 0.037,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 22,
+      "ms": 0.04,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 24,
+      "ms": 0.032,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 26,
+      "ms": 0.035,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 28,
+      "ms": 0.034,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "engine": "re2",
+      "n": 30,
+      "ms": 0.038,
+      "status": "ok",
+      "error": null
+    }
+  ]
+}
